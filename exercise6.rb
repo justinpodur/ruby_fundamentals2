@@ -28,3 +28,8 @@ sorted_grocery_list=grocery_list.sort
 
 puts "Your sorted grocery list is as follows:"
 display_list(sorted_grocery_list)
+
+#exercise 6.7
+sorted_grocery_list.delete("salmon")
+puts "Since you didn't find the salmon, it's going to be:"
+display_list(sorted_grocery_list)
