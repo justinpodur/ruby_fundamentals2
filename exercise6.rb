@@ -12,3 +12,10 @@ display_list(grocery_list)
 
 #exercise 6.3
 puts "The number of items on your list is #{grocery_list.length} items"
+
+#exercise 6.4
+if grocery_list.include?("bananas")
+	puts "You need to pick up bananas"
+else
+	puts "You don't need to pick up bananas"
+end
