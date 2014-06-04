@@ -22,3 +22,9 @@ end
 
 #exercise 6.5
 puts "The second item on your list is #{grocery_list[1]}"
+
+#exercise 6.6
+sorted_grocery_list=grocery_list.sort
+
+puts "Your sorted grocery list is as follows:"
+display_list(sorted_grocery_list)
