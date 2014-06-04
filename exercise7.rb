@@ -11,3 +11,14 @@ def display_cohorts(studentlist)
 end
 
 display_cohorts(students)
+
+#exercise 7.2
+students[:cohort4]=43
+display_cohorts(students)
+
+#exercise 7.3
+students.keys
+puts students.keys
+
+#exercise 7.4
+students.map {|key, value| puts (value*1.05).to_i}
